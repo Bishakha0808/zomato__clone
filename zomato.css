@@ -1,0 +1,713 @@
+* {
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+ body{
+    overflow-x: hidden;
+} 
+ .navbar{
+    height: 31.2rem;
+    width: 75rem;
+   background-image: url(king\ food_photo.jpg);
+   background-size: cover;
+ }
+
+
+.nav-logo{
+    
+    /* width:100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:6.25rem;
+}
+.logo{
+    background-image: url(https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png);
+    background-size: cover;
+    height: 5.3rem;
+    width: 25rem;
+   
+}
+
+
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: pink; */
+    background-image: url(king\ food_photo.jpg);
+    background-size: cover;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 1.87rem;
+    color:white;
+    font-weight: 700;
+}
+.panel-all{
+    margin-right: 31.2rem;
+    font-size: 0.85rem;
+    color:white;
+}
+.add{
+    color:white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 7rem;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    /* background-color: white;  */
+    /* justify-content: space-evenly; */
+   
+    /* background-color: pink; */
+    
+}
+.search-input{
+    height: 2rem;
+    width:20rem;
+    font-size: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+
+}
+
+.search-dish{
+    height: 2rem;
+    width:20rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size:1.02rem;
+   
+}
+.nav-ag{
+    height:4rem;
+    width:50rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    
+}
+.drop{
+    display: inline;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+#all{
+    padding: 0.5rem;
+}
+.food-section{
+    height:15rem;
+    width:70rem;
+    display: flex;
+    justify-content: space-evenly;
+     flex-wrap: wrap;
+    background-color: white;
+
+}
+.hero-section{
+    height:17rem;
+    width:75rem; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+.box{
+    height: 15.4rem;
+    width:21rem;
+    background-color: white;
+    /* padding:0.5rem 0 0.5rem 0; */
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+   
+    
+   
+  
+}
+
+.box_text{
+     height: 0.001rem; 
+    background-color: aqua; 
+    display: block;
+     /* padding-top:1.25rem;   */
+    justify-content: center;
+    font-size: 0.85rem;
+    
+   
+}
+.box_image{
+    background-image:url(plate_photo.avif) ;
+    height:12rem;
+    width:21rem;
+    background-size: cover;
+    border-top-left-radius : 0.5rem;
+    border-top-right-radius: 0.5rem;
+    
+     margin-bottom: 0.5rem;
+    
+}
+.box_content:hover{
+     /* border: 0.8rem solid transparent; */
+     transform: scale(1.05);
+     transition-duration: 0.1s;
+} 
+.box_image2{
+    background-image: url(Dinig_photo.avif);
+    height:12rem;
+    width:21rem;
+    background-size: cover;
+    border-top-left-radius : 0.5rem;
+    border-top-right-radius: 0.5rem;
+    
+    margin-bottom: 0.5rem;
+
+}
+.box_image3{
+    background-image: url(Club_photo.avif);
+    height:12rem;
+    width:21rem;
+    background-size: cover;
+    border-top-left-radius : 0.5rem;
+    border-top-right-radius: 0.5rem;
+    
+    margin-bottom: 0.5rem;
+}
+.panel_2{
+    height: 14rem;
+    width:75rem;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.panel_bar{
+    margin-right:5rem; 
+    padding-top: 6rem;
+
+}
+.panel_all{
+    padding-top: 7.8rem;
+    
+}
+.panel_all a{
+    color:rgb(224, 53, 70);
+    text-decoration: none;
+}
+ .panel_bar p{
+    font-size: 1.2rem;
+ }
+ .hero_dad{
+    height:22rem ;
+    width:75rem;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    transform: translateX(1.8rem);
+
+ }
+ .bbox{
+    height: 20rem;
+    /* background-color: brown; */
+    background-color: white;
+   
+    width:15.5rem ;
+    margin-bottom: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+   
+ }
+ .bbox_text1{
+    justify-content: center;
+    align-items: center;
+    
+    transform: translateY(-3rem);
+  
+    margin-left: 0.5rem;
+    /* background-image: url(daddy_photo.jpeg);
+    background-size: cover; */
+    color: white;
+    
+ }
+ .main_text1{
+    display: flex;
+   
+ }
+ .main_text1 p{
+    font-size: 0.85rem;
+ }
+.main_text1 i{
+    padding-left: 0.5rem;
+}
+.bbox_image1{
+    height: 20rem;
+    width:15.5rem;
+    background-image: url(billing_photo.avif);
+    background-size: cover;
+    
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.locality{
+    height: 10rem;
+    width: 75rem;
+    display: flex;
+    /* justify-content:space-around ; */
+    align-items: center;
+    /* transform: translateX(-14rem); */
+    padding-left: 4.2rem;
+    gap: 10px;
+    font-size: 2.3rem;
+
+  
+}
+.bbox_image2{
+    height: 20rem;
+    width:15.5rem;
+    background-image: url(plate1_photo.avif);
+    background-size: cover;
+    
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+.bbox_image3{
+    height: 20rem;
+    width:15.5rem;
+    background-image: url(glass_photo.avif);
+    background-size: cover;
+    
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+.bbox_image4{
+    height: 20rem;
+    width:15.5rem;
+    background-image: url(dining_photo.avif);
+    background-size: cover;
+    
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.big_local{
+    height:10rem;
+    width:75rem;
+    padding-left: 1.85rem;
+    
+   
+    
+
+}
+
+
+ .locality_box{
+    height: 6.8rem;
+    width:70rem; 
+  background-color: white; 
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-bottom: 0.0001rem;
+   
+    
+   
+ }
+.lbox{
+    height: 5.25rem;
+    width:31%;
+    cursor: pointer;
+    /* background-color: rgb(0, 204, 255); */
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+     background-color:rgb(255, 255, 255); 
+    border: 0.1rem solid rgb(232, 232, 232);
+    margin-bottom: 0.5rem;
+   
+   
+
+}
+
+
+.lbox_text{
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    
+}
+.main_prog{
+    display: flex;
+    padding-top: 0.4rem;
+    color: grey;
+   
+    
+
+}
+.main_prog i{
+    padding-left: 13rem;
+   transform: translateY(-0.6rem);
+
+}
+.lbox_contentp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(8rem);
+    padding-top: 0.5rem;
+  
+}
+.main_program i{
+    padding-left: 1rem;
+    padding-bottom: 3.2rem;
+ 
+}
+.main_program{
+    display: flex;
+    justify-content: center;
+    align-self:center;
+   
+    color: grey;
+}
+.lbox:hover{
+    box-shadow: 0.5rem solid rgb(99, 96, 96);
+    transform: scale(1.01);
+    transition-duration: 0.1s;
+  
+
+}
+.big_panel{
+    height: 30rem;
+    width:73rem;
+    /* background-color: palevioletred; */
+    /* background-color: ; */
+    
+
+}
+.sub_panel{
+    height: 27rem;
+    width:71rem;
+    background-color: rgb(255, 251, 247);
+    
+
+}
+
+.left_img{
+    height:10rem;
+    width:7rem;
+    background-image: url(mobile_photo.avif);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    justify-content: center; */
+    margin-left: 11rem;
+    margin-top: 17rem;
+    transform: translateY(7.5rem);
+   
+    padding-bottom: 7rem;
+   
+    padding-left: 11rem; 
+    background-color: rgb(255, 251, 247);
+  
+}
+/* .right_part{
+    height: 27rem;
+    width:29rem;
+     background-color: burlywood;
+     margin-top: 4rem;
+     margin-left: 33rem;
+     transform: translateY(-28rem);
+} */
+ .right_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* margin-left: 23rem;
+    margin-bottom: rem;  */
+    transform: translateY(-14rem); 
+
+} 
+ .right_text{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+   
+    padding-left: 25rem;
+ }
+ .right_text p{
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    padding-bottom: 0.8rem;
+    color: grey;
+
+ }
+.select{
+    padding-top: 2.5rem;
+    cursor: pointer;
+    
+}
+
+#same{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    
+}
+.search_bar{
+    margin-top: 1.5rem;
+    height: 2.1rem;
+    width:18rem;
+    font-size: 1.2rem;
+    border:0.1rem solid rgb(217, 210, 210);
+    border-radius: 0.5rem;
+    
+}
+.search_ba{
+    height: 2.1rem;
+    width: 9rem;
+    font-size: 1.05rem;
+   
+    background-color: rgb(239, 79, 95);
+    border-color: rgb(239, 79, 95);
+    border-radius: 0.5rem;
+    border: 0rem solid;
+    color: white;
+
+}
+
+.download p{
+    font-size: 0.95rem;
+    color:grey;
+    
+
+}
+.download_1{
+    display: flex;
+   
+   
+}
+
+
+   
+
+.download_img{
+    height: 2.1rem;
+    width: 8.2rem;
+    background-image: url(playstore_photo.webp);
+    background-size: cover;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    margin-top: 0.5rem;
+    
+
+}
+.sec_img{
+    height: 2.1rem;
+    width: 8.2rem;
+    background-image: url(apple_photo.webp);
+    background-size: cover;
+    margin-top: 0.5rem;
+    /* margin-right: 12rem; */
+  
+     transform: translateX(1rem); 
+     border-bottom-left-radius: 0.5rem;
+     border-bottom-right-radius: 0.5rem;
+   
+
+}
+.explore_bar{
+    height:27rem;
+    width:73rem;
+    background-color:rgb(252, 252, 252);;
+
+}
+.heading{
+    margin-left:2.7rem;
+    color: rgb(54, 54, 54);
+}
+.pop{
+    height:3.7rem;
+    width:69rem;
+    display:flex;
+    background-color:white;
+    margin-top:1.7rem;
+    margin-bottom:0.8rem;
+    margin-left:3rem;
+    border-radius:0.5rem;
+    border:0.01rem solid rgb(237, 229, 229);
+    cursor:pointer;
+
+}
+.pop p{
+    font-size:1.3rem;
+    color:grey;
+    display:flex;
+    margin-left:1.4rem;
+    margin-right:40rem;
+    margin-top:1rem;
+}
+.pop i{
+    margin-top:1.8rem;
+    color:grey;
+    
+}
+.pop1 p{
+    margin-right:49rem;
+}
+.pop2 p{
+    margin-right:44.5rem;
+}
+.pop3 p{
+    margin-right:50.5rem;
+}
+.pop4 p{
+    margin-right:52.1rem;
+}
+.foot_panel1{
+    height:6rem;
+    width:73rem;
+    background-color:rgb(248, 248, 248);
+    display: flex;
+    justify-content: space-between;
+}
+.foot_img{
+    height:2.6rem;
+    width:9.3rem;
+    /* background-color: aqua; */
+    background-image: url(https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* background-position: center;
+                background-attachment: fixed; */
+    margin-left: 3.5rem;
+
+}
+.small{
+    height:2.6rem;
+    width:7rem;
+    border: 0.1rem solid  rgba(0, 0, 0, 0.334);
+    border-radius: 0.5rem;
+    margin-right: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.image{
+    height: 16px;
+    width: 20px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+   
+}
+
+.small_1{
+    display: flex;
+}
+.para{
+    color: rgb(28, 28, 28);
+}
+.small p{
+    color: rgb(28, 28, 28);
+}
+.small i{
+    color: rgb(28, 28, 28);
+}
+
+.foot_panel2{
+    height: 17rem;
+    width:73rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(248, 248, 248);
+    margin-right: 1rem;
+   
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#8b8888dd ;
+ }
+ul{
+    margin-top: 1rem;
+}
+ul p{
+    letter-spacing: 0.2rem;
+}
+.logos{
+    height: 2.1rem;
+    width:8rem;
+    background-image: url(logos_photo.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 0.8rem;
+}
+.apple{
+    height: 2.1rem;
+    width: 8rem;
+    background-image: url(apple_photo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 1rem;
+
+}
+.google{
+    height: 2.1rem;
+    width: 8rem;
+    background-image: url(playstore_photo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 1rem;
+
+}
+.foot_panel3{
+    height:5rem;
+    width:73rem;
+    margin-top: 1.5rem;
+    margin-left: 0.1rem;
+    margin-right: 3.5rem;
+    color: rgb(79, 79, 79); 
+    font-size: 0.9rem;
+    background-color:rgb(248, 248, 248);
+
+}
+
+
+
+
+
